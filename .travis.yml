@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-  - 2.2.5-p319
+  - 2.2.5
 before_install: gem install rack -v '2.0.1'
 script:
 - bundle exec rake spec
